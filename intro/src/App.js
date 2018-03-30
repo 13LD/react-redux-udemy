@@ -6,7 +6,10 @@ class App extends Component {
   render() {
 
     return (
-        <div class="shape-separator"></div>
+      <div className="person">
+        <h1>Max</h1>
+        <p>Your years: 28</p>
+      </div>
     );
   }
 }
