@@ -5,5 +5,5 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 
-ReactDOM.render(<App name="max" />, document.getElementById('p1'));
+ReactDOM.render(<App name="Dimas" year="21" />, document.getElementById('p1'));
 registerServiceWorker();
