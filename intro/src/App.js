@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import Person from './Person/Person'
 class App extends Component {
 
   render() {
 
     return (
-      <div className="person">
-        <h1>{this.props.name}</h1>
-        <p>Your years: {this.props.year}</p>
+      <div className="App">
+        <h1>Hi, i'm react</h1>
+        <p>This is working</p>
+        <Person/>
       </div>
     );
   }
